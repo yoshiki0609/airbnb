@@ -1,0 +1,446 @@
+@charset "utf-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_left .fab {
+  margin: 0 18px;
+  color: palevioletred;
+}
+
+.header_left input {
+  background: url(images/search-solid.svg) no-repeat;
+  box-shadow: 0 0 2px #999;
+  background-position-y: center;
+  background-position-x: 10px;
+  background-size: 1.2em;
+  width: 300px;
+  border: 1px solid #fff;
+  padding: 8px 8px 8px 40px;
+}
+
+.right_menu {
+  display: flex;
+  align-items: center;
+}
+
+.right_menu li a {
+  padding-right: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #555;
+}
+
+.right_menu li a:hover {
+  opacity: 0.6;
+}
+
+.main_image {
+  background: url(images/main_image.webp) no-repeat center;
+  height: 500px;
+  position: relative;
+}
+
+.main_image_contents {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -20%);
+  color: #fff;
+}
+
+.main_image_contents h1 {
+  letter-spacing: 2px;
+  font-size: 46px;
+}
+
+.main_image_contents p {
+  padding: 30px 0;
+  font-size: 0.9em;
+}
+
+.main_image_contents button {
+  padding: 16px 24px;
+  background-color: #fff;
+  border-radius: 4px;
+  border-style: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.main_image_contents button:hover {
+  opacity: 0.8;
+}
+
+.second_columm {
+  padding: 50px 0;
+  height: auto;
+}
+
+.second_columm h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #555;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.contents_inner {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents_inner li {
+  text-align: center;
+  width: 30%;
+}
+
+.contents_inner li i {
+  margin-bottom: 20px;
+  color: #009090;
+}
+
+.contents_inner li h4 {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.contents_inner li p {
+  font-size: 0.8em;
+  color: #999;
+}
+
+.third_columm {
+  height: auto;
+  padding: 40px 0;
+  background-color: #008080;
+  text-align: center;
+  color: #fff;
+}
+
+.third_columm i {
+  background-color: #66cc99;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.third_columm h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.third_columm p {
+  margin-bottom: 36px;
+  letter-spacing: 1px;
+}
+
+.third_columm button {
+  margin-bottom: 10px;
+  padding: 8px 24px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ff3333;
+  border-style: none;
+  border-radius: 4px;
+}
+
+.third_columm button:hover {
+  opacity: 0.8;
+}
+
+.third_columm a {
+  color: #cccccc;
+  font-size: 10px;
+}
+
+.third_columm a:hover {
+  opacity: 0.6;
+}
+
+.last_contents {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding: 40px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.last_columm_contents1 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.last_columm_contents1 ul {
+  width: 25%;
+}
+
+.last_columm_contents1 ul h4 {
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.last_columm_contents1 ul li a {
+  color: #999;
+  font-size: 12px;
+  line-height: 1.8em;
+}
+
+.last_columm_contents1 ul li a:hover {
+  opacity: 0.6;
+}
+
+.last_columm_contents2 a i {
+  padding: 8px;
+  margin-bottom: 16px;
+  color: #999;
+}
+
+.last_columm_contents2 li a {
+  color: #999;
+  font-size: 12px;
+  line-height: 1.8em;
+}
+
+.last_columm_contents2 a:hover {
+  opacity: 0.6;
+}
+
+.footer_contents {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.last_left {
+  display: flex;
+  align-items: center;
+}
+
+.last_left i {
+  margin-right: 10px;
+  color: palevioletred;
+}
+
+.last_left_contents {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+.last_left_contents a {
+  color: #999;
+}
+
+.last_left_contents a:hover {
+  opacity: 0.7;
+}
+
+.last_right button {
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+  padding: 6px;
+  color: #999;
+}
